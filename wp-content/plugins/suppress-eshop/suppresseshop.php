@@ -14,10 +14,7 @@ function display_array($array){
 }
 
 function supress_eshop_tags($content) {
-    get_page($pageId);
-		$eshopStrings = array('/\[eshop.+\]/');
-    $content=preg_replace($eshopStrings,'',$content);
-    return $content;
+	return preg_replace(array('/\[eshop.+\]/'),'',$content);
 }
 
 add_filter('the_content', 'supress_eshop_tags');
