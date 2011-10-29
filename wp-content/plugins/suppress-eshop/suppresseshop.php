@@ -15,8 +15,8 @@ function display_array($array){
 
 function supress_eshop_tags($content) {
     get_page($pageId);
-    $eshopStrings = array('[eshop_list_subpages records="all"]');
-    $content=str_ireplace($eshopStrings,'',$content);
+		$eshopStrings = array('/\[eshop.+\]/');
+    $content=preg_replace($eshopStrings,'',$content);
     return $content;
 }
 
