@@ -63,7 +63,6 @@ a img {
 /*
 LAYOUT: Two columns
 DESCRIPTION: Two-column fixed layout with one sidebar right of content
-*/
 
 #container {
 	float: left;
@@ -86,6 +85,28 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 	clear: both;
 	width: 100%;
 }
+*/
+
+/* LAYOUT: Two columns-reversed
+   DESCRIPTION: Two-column fixed layout with one sidebar LEFT of content */
+
+#container {
+	float:right;
+	width:100%;
+	margin:0 0 0 -240px;
+	padding:1em 0;
+}
+
+#content {
+	margin:0 20px 0 280px;
+}
+
+#primary,#secondary {
+	float:left;
+	overflow:hidden;
+	width:220px;
+}
+
 
 /*
 LAYOUT: One column, no sidebar
