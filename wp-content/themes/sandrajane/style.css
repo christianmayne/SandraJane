@@ -1,0 +1,78 @@
+/*
+THEME NAME: Sandra Jane
+THEME URI: http://www.sandrajane.com/
+DESCRIPTION: The Sandra Jane Theme
+VERSION: 1
+AUTHOR: Peter Moore
+AUTHOR Uri: http://www.lejazz.co.uk/
+TEMPLATE: sandbox
+*/
+
+
+@import url(blueprint/screen.css);
+
+html {
+	height: 100%;
+}
+
+body {
+	
+	height:100%;
+	font-family: serif;
+	font-size: 0.8em;
+	color: #000000;
+	background: #91BBAE;
+}
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+.skip-link {
+	display: none;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+
+#wrapper {
+	//min-height: 100%;
+	margin: 0 auto;
+	width:750px;
+}
+
+#header {
+	width: 750px;
+	margin: 20px 0 10px 0;
+	display: block;
+}
+
+#container {
+	overflow: auto;
+	padding: 10px;
+	background: #EEF9E1;
+	}
+
+#access {
+	display: inline;
+}
+
+#socialmedialinks {
+	text-align: right;
+}
+	
+#socialmedialinks img{
+	margin: 0 10px 0 0;
+}
