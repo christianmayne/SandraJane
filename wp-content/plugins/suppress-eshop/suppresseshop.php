@@ -17,6 +17,15 @@ function supress_eshop_tags($content) {
 	return preg_replace(array('/\[eshop.+\]/'),'',$content);
 }
 
+
+define(TEST_MODE, 1);
+if (TEST_MODE) {
+	define(DEBUG_DOMAIN,"sandrajane.co.uk");
+} else {
+	define(DEBUG_DOMAIN, "sandrajaneshop.co.uk");
+}
+
+
 add_filter('the_content', 'supress_eshop_tags');
 
 ?>
