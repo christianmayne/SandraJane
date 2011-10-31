@@ -65,8 +65,10 @@ a:hover{
 	background: #EEF9E1;
 	}
 
-#access {
-	display: inline;
+#leftbar {
+	width: 200px;
+	float: left;
+	margin: 0 10px 0 0;
 }
 
 #socialmedialinks {
@@ -75,4 +77,20 @@ a:hover{
 	
 #socialmedialinks img{
 	margin: 0 10px 0 0;
+}
+
+.menu-main-menu-container ul{
+	list-style-type: none;
+	padding:0;
+	margin:20px 0 0 0;
+}
+
+.menu-main-menu-container li{
+	background: #000000;
+	padding:2px 2px 10px 2px;
+	margin: 0 0 2px 0;
+}
+	
+.menu-main-menu-container a{
+	color:#FFFFFF;
 }

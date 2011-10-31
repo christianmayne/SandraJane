@@ -1,10 +1,14 @@
 <?php get_header() ?>
 
 	<div id="container">
+	<div id="leftbar">
+	<img src="<?php bloginfo('stylesheet_directory'); ?>/images/SandraJaneLogo.gif">
+	<?php wp_nav_menu( array( 'theme_location' => 'left-menu' ) ); ?>
+	
+	</div><!-- #leftbar -->
 		<div id="content">
 			<div id="access">
-				<div class="skip-link"><a href="#content" title="<?php _e( 'Skip to content', 'sandbox' ) ?>"><?php _e( 'Skip to content', 'sandbox' ) ?></a></div>
-				<?php sandbox_globalnav() ?>
+				
 			</div><!-- #access -->
 			
 			
