@@ -4,44 +4,17 @@
 	<div id="leftbar">
 	<img src="<?php bloginfo('stylesheet_directory'); ?>/images/SandraJaneLogo.gif">
 	<?php wp_nav_menu( array( 'theme_location' => 'left-menu' ) ); ?>
-	
+	<img src="<?php bloginfo('stylesheet_directory'); ?>/images/SandraJaneShop.gif">
+	<div class="address">46-48 King Street<br />Cambridge</div>
 	</div><!-- #leftbar -->
 		<div id="content">
-			<div id="access">
-				
-			</div><!-- #access -->
-			
-			
-<?php while ( have_posts() ) : the_post() ?>
-
-			<div id="post-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
-				<h2 class="entry-title"><a href="<?php the_permalink() ?>" title="<?php printf( __('Permalink to %s', 'sandbox'), the_title_attribute('echo=0') ) ?>" rel="bookmark"><?php the_title() ?></a></h2>
-				<div class="entry-date"><abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO') ?>"><?php unset($previousday); printf( __( '%1$s &#8211; %2$s', 'sandbox' ), the_date( '', '', '', false ), get_the_time() ) ?></abbr></div>
-				<div class="entry-content">
-<?php the_content( __( 'Read More <span class="meta-nav">&raquo;</span>', 'sandbox' ) ) ?>
-
-				<?php wp_link_pages('before=<div class="page-link">' . __( 'Pages:', 'sandbox' ) . '&after=</div>') ?>
-				</div>
-				<div class="entry-meta">
-					<span class="author vcard"><?php printf( __( 'By %s', 'sandbox' ), '<a class="url fn n" href="' . get_author_link( false, $authordata->ID, $authordata->user_nicename ) . '" title="' . sprintf( __( 'View all posts by %s', 'sandbox' ), $authordata->display_name ) . '">' . get_the_author() . '</a>' ) ?></span>
-					<span class="meta-sep">|</span>
-					<span class="cat-links"><?php printf( __( 'Posted in %s', 'sandbox' ), get_the_category_list(', ') ) ?></span>
-					<span class="meta-sep">|</span>
-					<?php the_tags( __( '<span class="tag-links">Tagged ', 'sandbox' ), ", ", "</span>\n\t\t\t\t\t<span class=\"meta-sep\">|</span>\n" ) ?>
-<?php edit_post_link( __( 'Edit', 'sandbox' ), "\t\t\t\t\t<span class=\"edit-link\">", "</span>\n\t\t\t\t\t<span class=\"meta-sep\">|</span>\n" ) ?>
-					<span class="comments-link"><?php comments_popup_link( __( 'Comments (0)', 'sandbox' ), __( 'Comments (1)', 'sandbox' ), __( 'Comments (%)', 'sandbox' ) ) ?></span>
-				</div>
-			</div><!-- .post -->
-
-<?php comments_template() ?>
-
-<?php endwhile; ?>
-
-			<div id="nav-below" class="navigation">
-				<div class="nav-previous"><?php next_posts_link(__( '<span class="meta-nav">&laquo;</span> Older posts', 'sandbox' )) ?></div>
-				<div class="nav-next"><?php previous_posts_link(__( 'Newer posts <span class="meta-nav">&raquo;</span>', 'sandbox' )) ?></div>
-			</div>
-
+			<h1 class="mainh1">Welcome</h1>
+			<p>Welcome to Sandra Jane, the high quality interior design store. You'll find everything to make your home feel special; fabrics, wall coverings, soft furnishings, furniture (for inside and out) lighting and accessories.<br /><br />
+			We're happy to visit your home or business to advise on the creating and implementing of the right look.<br /><br />
+			We stock the up-market brand names you know and trust plus a host of unusual items that we have sourced from our favourite suppliers from around the world.<br /><br /> 
+			We are always introducing new stock from different suppliers and for new seasons so we don't produce a catalogue. Come and see us! We're a family business and the founders are still active in the business and keen to help you.</p>
+			<h1 class="mainh1">01223 323211 | <a href="mailto:contact@sandrajane.co.uk">contact@sandrajane.co.uk</a></h1>
+			<div id="decoration"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/Home.gif" class="left"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/home1.gif" class="right"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/home2.gif" class="right"></div>
 		</div><!-- #content -->
 	</div><!-- #container -->
 
