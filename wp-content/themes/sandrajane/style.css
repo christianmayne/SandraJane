@@ -69,20 +69,26 @@ a:hover{
 	background:#FFFFFF;
 	margin:0;
 	padding:0;
-	width:510px;
+	width:500px;
 	float:right;
 }
 
 #content p {
-	padding: 40px;
+	padding: 0;
+	margin:0 0 12px 0;
 	font-size: 1.2em;
 	line-height:1em;
 }	
 
+#post {
+	padding:40px;
+	margin:0;
+}
+
 #leftbar {
 	width: 200px;
 	float: left;
-	margin: 10px 20px 0 0;
+	margin: 10px 20px 0 10px;
 }
 
 .address {
@@ -115,6 +121,34 @@ a:hover{
 	font-size:1.2em;
 }
 
+.menu-main-menu-container .current-menu-item {
+	text-align:right;	
+}
+
+
+#menu-item-67, #menu-item-46, #menu-item-45 {  /* Home, Services, Find Us links */
+	background:#006A51;
+}
+
+#menu-item-50 { /* Fabrics and Wallpaper link */
+	background:#AFA036;
+}
+
+#menu-item-49 { /* Furniture link */
+	background:#AC2D2A;
+}
+
+#menu-item-48 { /* Lighting link */
+	background:#F3A12F;
+}
+
+#menu-item-47 { /* Gifts and Accessories link */
+	background:#F92A5E;
+}
+
+
+
+
 .mainh1 {
 	display: block;
 	margin:0;
@@ -132,6 +166,43 @@ a:hover{
 .mainh1 a:hover{
 	text-decoration: underline;
 }
+
+.fabrich1 {
+	display: block;
+	margin:0;
+	padding: 10px 0 20px 10px;
+	font-size:1.5em;
+	background:#AFA036 url(images/squiggle.png) top right no-repeat;
+	color: #FFFFFF;
+}
+
+.fabrich1 a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.fabrich1 a:hover{
+	text-decoration: underline;
+}
+
+.furnitureh1 {
+	display: block;
+	margin:0;
+	padding: 10px 0 20px 10px;
+	font-size:1.5em;
+	background:#AC2D2A url(images/squiggle.png) top right no-repeat;
+	color: #FFFFFF;
+}
+
+.furnitureh1 a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.furnitureh1 a:hover{
+	text-decoration: underline;
+}
+
 
 #footer {
 	padding:20px;
