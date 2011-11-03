@@ -202,6 +202,41 @@ a:hover{
 .furnitureh1 a:hover{
 	text-decoration: underline;
 }
+.lightingh1 {
+	display: block;
+	margin:0;
+	padding: 10px 0 20px 10px;
+	font-size:1.5em;
+	background:#F3A12F url(images/squiggle.png) top right no-repeat;
+	color: #FFFFFF;
+}
+
+.lightingh1 a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.lightingh1 a:hover{
+	text-decoration: underline;
+}
+
+.giftsh1 {
+	display: block;
+	margin:0;
+	padding: 10px 0 20px 10px;
+	font-size:1.5em;
+	background:#F92A5E url(images/squiggle.png) top right no-repeat;
+	color: #FFFFFF;
+}
+
+.giftsh1 a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.giftsh1 a:hover{
+	text-decoration: underline;
+}
 
 
 #footer {

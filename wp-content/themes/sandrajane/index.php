@@ -2,7 +2,7 @@
 
 	<div id="container">
 	<div id="leftbar">
-	<img src="<?php bloginfo('stylesheet_directory'); ?>/images/SandraJaneLogo.gif">
+	<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/SandraJaneLogo.gif"></a>
 	<?php wp_nav_menu( array( 'theme_location' => 'left-menu' ) ); ?>
 	<img src="<?php bloginfo('stylesheet_directory'); ?>/images/SandraJaneShop.gif">
 	<div class="address">46-48 King Street<br />Cambridge</div>
