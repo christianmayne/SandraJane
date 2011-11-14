@@ -21,6 +21,9 @@
 <div id="wrapper">
 
 	<div id="header">
+		<div id="eshopmenu"><?php 
+echo do_shortcode("[eshop_cart_items showwhat='items' ]");
+?></div>
 		<div id="socialmedialinks"><a href="https://twitter.com/sandrajaneuk" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/twittericon.png"></a><a href="https://www.facebook.com/pages/Sandra-Jane/115173121836806" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/facebookicon.png"></a></div>		
 	</div><!--  #header -->
 	

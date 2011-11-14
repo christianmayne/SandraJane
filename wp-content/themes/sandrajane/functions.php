@@ -2,7 +2,7 @@
 
 function register_my_menus() {
   register_nav_menus(
-    array('left-menu' => __( 'Left Menu' ) )
+    array('left-menu' => __( 'Left Menu' ))
   );
 }
 

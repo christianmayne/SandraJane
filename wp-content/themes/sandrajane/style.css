@@ -94,6 +94,7 @@ a:hover{
 .address {
 	font-family:sans-serif;
 	text-align:center;
+	color:#003333;
 }
 
 #socialmedialinks {
@@ -236,6 +237,22 @@ a:hover{
 
 .giftsh1 a:hover{
 	text-decoration: underline;
+}
+
+#eshopmenu {
+	float:left;
+	margin:10px 0 0 0;
+	font-size:1.2em;
+	color:#003333;
+}
+
+#eshopmenu br{
+	display:none;
+}
+
+#eshopmenu a{
+	padding:0 0 0 5px;
+	color:#003333;
 }
 
 
