@@ -1,6 +1,6 @@
 
 	<div id="footer">
-		<a href="#">Legal Privacy</a>
+		<a href="http://localhost/sandrajane/?page_id=60">Legal Privacy</a>
 	</div><!-- #footer -->
 
 </div><!-- #wrapper .hfeed -->

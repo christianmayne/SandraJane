@@ -47,6 +47,7 @@ a:hover{
 	text-decoration:underline;
 }
 
+
 #wrapper {
 	//min-height: 100%;
 	margin: 0 auto;
@@ -83,6 +84,8 @@ a:hover{
 #post {
 	padding:40px;
 	margin:0;
+	overflow:auto;
+	
 }
 
 #leftbar {
@@ -239,6 +242,28 @@ a:hover{
 	text-decoration: underline;
 }
 
+
+
+#footer {
+	padding:20px;
+	margin:0;
+}
+
+#footer a{
+	font-family:sans-serif;
+	color: #006A51;
+	text-decoration:none;
+}
+
+#footer a:hover{
+	text-decoration:underline;
+}
+
+
+
+
+/* eshop styling */
+
 #eshopmenu {
 	float:left;
 	margin:10px 0 0 0;
@@ -256,17 +281,37 @@ a:hover{
 }
 
 
-#footer {
-	padding:20px;
+
+ul.eshopsubpages {
+	list-style-type: none;
 	margin:0;
+	padding:0;
+	min-height:170px;
 }
 
-#footer a{
-	font-family:sans-serif;
-	color: #006A51;
-	text-decoration:none;
+ul.eshopsubpages li{
+	width: 180px;
+	margin:0 10px 10px;
+	padding:0 5px;
+	float:left;
+	background: none repeat scroll 0 0 #DDDDDD;
 }
 
-#footer a:hover{
-	text-decoration:underline;
-}
+
+ul.eshopsubpages a.itemref{
+	
+    display: block;
+    font-size: 1.5em;
+    color:#003333;
+    padding:0;
+    margin:5px 0;
+    text-align:center;
+	}
+
+ul.eshopsubpages p{
+	color:#003333;
+	padding:5px;
+	text-align:center;
+	
+	}
+
